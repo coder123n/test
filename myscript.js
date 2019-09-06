@@ -5,9 +5,12 @@ $(document).ready(function(){
 	$("img").click(function(){
 		$("p").show();
 		$("h2").show();
+		$(".stl").css({"color";red","background-color":"20,0,20"});
 	});
-	$(".stl").css({
-	"color":"red"}
-		
+	$("p").click(function(){
+		$("img").fadeIn();
 	});
-});
+	
+	
+
+							});
